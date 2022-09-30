@@ -11,7 +11,7 @@
 
 //CODE HERE
 
-gitDefinition = "Git is an app (not a website) that lets you control and manage your code using the terminal"
+let gitDefinition = "Git is an app (not a website) that lets you control and manage your code using the terminal"
 //    console.log(gitDefinition)
 
 //////////////////PROBLEM 2////////////////////
@@ -22,7 +22,7 @@ gitDefinition = "Git is an app (not a website) that lets you control and manage 
 
 //CODE HERE
 
-gitHubDefinition = "gitHub is a website that lets you manage repositories created in Git (the app). These respositories can be set to public or private."
+let gitHubDefinition = "gitHub is a website that lets you manage repositories created in Git (the app). These respositories can be set to public or private."
 //    console.log(gitHubDefinition)
 
 //////////////////PROBLEM 3////////////////////
@@ -33,8 +33,8 @@ gitHubDefinition = "gitHub is a website that lets you manage repositories create
 
 //CODE HERE
 
-gitInitDefinition = "Git Init allows the user to initialize a Git repository to be sent to GitHub."
-//    console.log(gitInitDefinition)
+let gitInitDefinition = "Git Init allows the user to initialize a Git repository to be sent to GitHub."
+// console.log(gitInitDefinition)
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -44,7 +44,7 @@ gitInitDefinition = "Git Init allows the user to initialize a Git repository to 
 
 //CODE HERE
 
-gitCloneDefinition = "Git Clone will allow the user to copy a current repository and add it to a new folder in a different location"
+let gitCloneDefinition = "Git Clone will allow the user to copy a current repository and add it to a new folder in a different location"
 //    console.log(gitCloneDefinition)
 
 //////////////////PROBLEM 5////////////////////
@@ -55,7 +55,7 @@ gitCloneDefinition = "Git Clone will allow the user to copy a current repository
 
 //CODE HERE
 
-gitStatusDefinition = "Git Status will allow the user to see which status the repository they are working is currently in."
+let gitStatusDefinition = "Git Status will allow the user to see which status the repository they are working is currently in."
 //    console.log(gitStatusDefinition)
 
 //////////////////PROBLEM 6////////////////////
@@ -69,10 +69,10 @@ gitStatusDefinition = "Git Status will allow the user to see which status the re
 
 //CODE HERE
 
-gitAddDefinition = "Git Add (git add .) allows the files to be tracked. This is a required step to allow the code to be pushed to the repository"
+let gitAddDefinition = "Git Add (git add .) allows the files to be tracked. This is a required step to allow the code to be pushed to the repository"
 //    console.log(gitAddDefinition)
 
-gitAddCode = "git add ."
+let gitAddCode = "git add ."
 //  console.log(gitAddCode)
 
 //////////////////PROBLEM 7////////////////////
@@ -86,11 +86,11 @@ gitAddCode = "git add ."
 
 //CODE HERE
 
-gitCommitDefinition = "Git Commit allows the user to create a current snapshot of the code to send to the resposity in GitHub."
+let gitCommitDefinition = "Git Commit allows the user to create a current snapshot of the code to send to the resposity in GitHub."
 //    console.log(gitCommitDefinition)
 
-gitCommitCode = "git commit -m 'initial commit'"
-//    console.log(gitCommitCode)
+let gitCommitCode = "git commit -m 'initial commit'"
+// console.log(gitCommitCode)
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -100,5 +100,5 @@ gitCommitCode = "git commit -m 'initial commit'"
 
 //CODE HERE
 
-gitPushDefinition = "Git Push allows the snapshot taken with Git Commit to be pushed to the respository in GitHub to be viewed as public or private."
+let gitPushDefinition = "Git Push allows the snapshot taken with Git Commit to be pushed to the respository in GitHub to be viewed as public or private."
 //    console.log(gitPushDefinition)

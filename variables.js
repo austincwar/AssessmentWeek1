@@ -3,15 +3,15 @@
 
 //CODE HERE 
 
-myName = "Austin"
-//  console.log(myName)
+let myName = "Austin"
+console.log(myName)
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
 
-faveNum = "15"
+let faveNum = "15"
 //  console.log(faveNum)
 
 //////////////////PROBLEM 3////////////////////
@@ -19,7 +19,7 @@ faveNum = "15"
 
 //CODE HERE
 
-lovesCode = "True"
+let lovesCode = "True"
 //  console.log(lovesCode)
 
 //////////////////PROBLEM 4////////////////////

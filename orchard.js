@@ -51,9 +51,14 @@ const pinkPrice = .55
 
 // CODE HERE
 
+let totalAcres=0
 
+for(i=0;i<fujiAcres.length;i++){
+totalAcres += fujiAcres[i] + galaAcres[i] + pinkAcres[i];
+}
+console.log(totalAcres);
 
-
+// Using a for-loop I added the sum of all the numbers in all 3 arrays starting with the FujiAcres. I let totalAcres start at 0 and added each array, using [i] to count each number individually, then console logged the result of the total acres using the "total acres" variable.
 
 // PROBLEM 2
 
@@ -68,8 +73,6 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-
-
 
 
 

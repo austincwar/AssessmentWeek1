@@ -44,11 +44,13 @@ const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
 
-answers = []
+answers = 100
 
 for (let i=0; i<bigOrSmallArray.length; i++) {
-  if(bigOrSmallArray > 100)
-  console.log("big")
-} else {
-  console.log("small")
+  if(bigOrSmallArray[i] > answers) { 
+  answers = bigOrSmallArray[i] 
+  //  console.log("big")
+  } else {
+  //  console.log("small")
+  }
 }
